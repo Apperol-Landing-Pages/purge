@@ -1,0 +1,108 @@
+@import "../assets/font/stylesheet.css";
+
+
+.support-center{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 22px;
+  margin-top: 14px;    
+}
+
+.support-center-container {
+  max-width: 400px;
+  padding: 30px 16px;
+  margin: 0 auto;
+}
+
+.section-support-center-title {
+  color: #343434;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px;
+  margin: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.support-center-group input,
+.support-center-group textarea {
+  width: 100%;
+    font-family: 'Mulish';
+  box-sizing: border-box;
+  background: #FFFFFFBF;
+  color: rgba(99, 99, 99, 1);
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  border: 0.678064px solid #2E2E2E;
+  border-radius: 16px;
+}
+
+.support-center-group textarea {
+  height: 140px;
+  resize: none;
+}
+
+
+.support-center-group input::placeholder,
+.support-center-group textarea::placeholder {
+width: 311px;
+height: 21px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+letter-spacing: -0.04em;
+color: rgba(169, 173, 178, 1);
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.support-center-group button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+  padding: 17px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  background: #7C82FF;
+  box-shadow: 0px 4px 12px rgba(145, 158, 171, 0.25), inset 0px 3px 8px rgba(255, 255, 255, 0.25);
+  border-radius: 33px;
+  margin: 45px auto;
+}
+
+@media (max-width: 450px){
+        .section-subtitle{
+        width: 100%;
+            
+    }
+
+    .section-support-center-title{
+        font-size: 42px;
+    }
+    .footer-links{
+        gap: 40px;
+    }
+    
+    .support-center-group button{
+        width: 86%;
+        height: 52px;
+    }
+    .support-center-container{
+        padding: 0px 5px 5px;
+    } 
+    
+}

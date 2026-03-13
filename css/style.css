@@ -1,0 +1,36 @@
+@import "../assets/font/stylesheet.css";
+
+
+:root {
+  --color-primary: #FFFFFF;
+}
+
+*{
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  border: none;
+}
+
+html{
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #F0F3F8 0%, #E4EBF4 100%);
+    padding-top: 90px;
+}
+
+.container{
+  max-width: 992px; 
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+
+

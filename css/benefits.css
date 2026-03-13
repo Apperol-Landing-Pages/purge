@@ -1,0 +1,191 @@
+@import "../assets/font/stylesheet.css";
+
+
+
+.benefits{
+padding:100px 20px;
+}
+
+.benefits h2{
+color: #343434;
+text-align:center;
+font-size: 64px;
+margin-bottom:60px;
+font-weight:500;
+}
+
+.benefits-grid{
+max-width: 900px;
+margin:auto;
+display:grid;
+gap:24px;
+grid-template-columns:2fr 2fr;
+grid-template-rows: 412px 412px 412px;
+
+grid-template-areas:
+"Duplicate-text Duplicate-image"
+"Videos-image Videos-text"
+"Contacts-text Contacts-image";
+}
+
+.card{
+
+background: #FFFFFF;
+border-radius:42px;
+padding:32px;
+position:relative;
+overflow:hidden;
+box-shadow:
+0 10px 30px rgba(0,0,0,0.25),
+inset 0 1px 0 rgba(255,255,255,0.05);
+transition:transform .25s ease;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.benefits h3{
+color: #120656;
+font-size:42px;
+font-weight: 600;
+margin: 0px 0px;
+}
+
+.benefits p{
+    color: #00000080;
+font-size: 18px;
+    font-weight: 400;
+opacity:0.8;
+line-height:1.5;
+    max-width: 500px;
+}
+
+.Duplicate-text{
+    padding-top: 130px;
+grid-area:Duplicate-text;
+}
+
+.Duplicate-image{
+grid-area:Duplicate-image;
+}
+
+.Videos-text{
+    padding-top: 130px;
+grid-area:Videos-text;
+}
+
+.Videos-image{
+grid-area:Videos-image;
+}
+
+.Contacts-text{
+    padding-top: 130px;
+grid-area:Contacts-text;
+}
+
+.Contacts-image{
+grid-area:Contacts-image;
+}
+
+.card img{
+position:absolute;
+pointer-events:none;
+}
+
+.el1 {
+width: 55%;
+right: 100px;
+bottom: 0px;  
+}
+
+.el2 {
+width: 55%;
+right: 100px;
+bottom: 0px; 
+}
+
+.el3{
+width: 55%;
+right: 100px;
+bottom: 0px;
+}
+
+@media (max-width: 768px){
+
+.app{
+height:600px;
+}
+
+
+.benefits{
+padding:70px 20px;
+}
+
+.benefits h2{
+font-size: 42px;
+margin-bottom: 40px;
+}
+
+.benefits-grid{
+
+grid-template-columns:1fr;
+grid-template-rows: auto;
+
+grid-template-areas:
+"Duplicate-image"
+"Duplicate-text"
+"Videos-image"
+"Videos-text"
+"Contacts-image"
+"Contacts-text";
+
+}
+
+.card{
+min-height:350px;
+}
+
+.card img{
+position:absolute;
+}
+
+.el1 {
+width: 65%;
+right: 65px;
+bottom: 0px;  
+}
+
+.el2 {
+width: 65%;
+right: 65px;
+bottom: 0px; 
+}
+
+.el3{
+width: 65%;
+right: 65px;
+bottom: 0px;
+}
+
+.Duplicate-text{
+    padding-top: 0px;
+}
+
+.Videos-text{
+    padding-top: 0px;
+}
+
+.Contacts-text{
+    padding-top: 0px;
+}
+
+.benefits h3{
+font-size:32px;
+}
+
+.benefits p{
+font-size: 18px;
+}
+    
+}

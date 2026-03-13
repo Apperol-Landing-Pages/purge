@@ -1,0 +1,90 @@
+@import "../assets/font/stylesheet.css";
+
+:root {
+  --color-primary: #FFFFFF;
+}
+
+*{
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  border: none;
+}
+
+html{
+  margin: 0 auto;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    background: #35354A;
+    padding-top: 90px;
+}
+.container-t-p{
+  max-width: 992px;
+  padding: 0 16px 60px;
+  margin: 0 auto;
+  color: #333333;
+    
+}
+
+.container-t-p h1{
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 48px;
+  padding-top: 30px;
+  padding-bottom: 15px;    
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+  margin: 0 auto;  
+}
+
+.container-t-p h2{
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 15px;    
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0 auto;
+    padding-left: 10px;
+}
+
+.container-t-p p{
+   color: #E4DAD7;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 auto; 
+}
+
+.container-t-p li{
+   color: #E4DAD7;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 auto; 
+}
+
+.container-t-p li {
+    position: relative;
+    padding-left: 1em;
+}
+
+.container-t-p li::before {
+    content: "-";           
+    position: absolute;
+    left: 0;
+    color: #E4DAD7;
+    font-size: 1em;
+}

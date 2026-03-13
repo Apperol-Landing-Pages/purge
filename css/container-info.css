@@ -1,0 +1,32 @@
+@import "../assets/font/stylesheet.css";
+
+.information{
+   background: #35354A;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-title{
+    max-width:1000px;
+     color: #DDD7E4;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px;
+  margin: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 10px; 
+}
+
+.information-image{
+    width: 170px;
+    padding: 30px 0px 80px 0px;
+}
+
+@media (max-width: 768px){
+    .information-title{
+        font-size: 42px;
+    }   
+}

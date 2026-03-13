@@ -1,0 +1,79 @@
+@import "../assets/font/stylesheet.css";
+
+.footer-container{
+  max-width: 1200px;  
+  padding: 30px 16px 10px;
+  margin: 0 auto;
+  background-color: #35354A;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: #35354A;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #E4DAD7;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.copy-text {
+  color: #DCDEFF;
+  font-size: 14px;
+  text-align: center;
+    padding-top: 20px;
+}
+
+.mobile-br{
+  display: none;
+}
+
+@media (max-width: 450px){
+
+    .footer-links{
+        display: flex;
+  justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+          margin-bottom: 40px;
+  flex-wrap: wrap;
+    }
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+ .mobile-br{
+    display: block;
+  }
+}
