@@ -1,5 +1,5 @@
 (function (w, d) {
-  const CLARITY_PROJECT_ID = 'REPLACE_WITH_YOUR_CLARITY_PROJECT_ID';
+  const CLARITY_PROJECT_ID = 'w7yn7semmb';
 
   if (!CLARITY_PROJECT_ID || CLARITY_PROJECT_ID.indexOf('REPLACE_WITH') === 0) {
     console.info('Microsoft Clarity is not enabled yet. Replace CLARITY_PROJECT_ID in js/clarity.js.');
